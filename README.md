@@ -1,6 +1,6 @@
 # es2015-library-skeleton
 
-This is my personal skeleton for creating an ES2015 library component npm module.  You are welcome to use it.
+ES6 skeleton project for AWS Lambda functions
 
 ## Tools used
 
@@ -13,4 +13,5 @@ This is my personal skeleton for creating an ES2015 library component npm module
 * eslint
 * flow
 
-The `prepublish` script checks the output of `eslint` and `flow` and runs tests.
+The `build` script checks the output of `eslint` and `flow`, runs tests, and generates a .zip file to upload to the 
+Lambda function
